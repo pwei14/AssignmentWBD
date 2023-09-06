@@ -1,0 +1,53 @@
+body {
+    margin: auto;
+}
+
+header {
+    padding: 0.1px;
+    color: white;
+    background-color: #000000;
+}
+
+.title {
+    font-family: Montserrat, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  
+  .active {
+    background-color: #626262;
+  }
+
+  li a:hover {
+    background-color: #9a9a9a;
+  }
+
+footer {
+    word-spacing: 20px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+  
