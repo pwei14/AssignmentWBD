@@ -1,4 +1,3 @@
-const checkbox = document.getElementById("checkbox")
-checkbox.addEventListener("change", () => {
-  document.body.classList.toggle("dark")
-})
+function subscribe() {
+  document.getElementById("menu-bar").classList.toggle("change");
+}
